@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+body {
+    background: #efefef;
+}
+
 .intro {
     display: flex;
     height: 100vh;
@@ -15,29 +19,30 @@
 
 .main-title h1 {
     font-size: 3.2em;
-    margin: 5em 0 0 2.2em;
+    margin: 5em 0 0 2.15em;
     font-family: Metropolis;
     letter-spacing: -2px;
-    line-height: 1.3;
-    color: #f5633a;
+    line-height: 1.1;
+    color: #151515;
 }
 
 .skills {
-    font-size: 1em;
+    font-size: .8em;
     color: #999999;
     font-family: Metropolis;
-    margin: .5em 0 2em 7em;
+    margin: .5em 0 2em 8.8em;
 }
 
 .button {
     text-decoration: none;
     font-size: 1em;
     font-family: Metropolis;
-    background: #565656;
-    padding: .7em 1.2em;
-    border: none;
-    color: rgba(255, 255, 255, .8);
-    margin: 0 0 0 7em;
+    background: transparent;
+    padding: .8em 1.3em;
+    border: 2px solid black;
+    color: black;
+    margin: 1.5em 0 0 7em;
+    cursor: pointer;
 }
 
 .social {
