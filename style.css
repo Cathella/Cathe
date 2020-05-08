@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    flex-grow: 1;
+    height: 100vh;
+    /* background-color: #554272; */
+    background-color: transparent;
+    padding-left: 100px;
+}
+
+.main-title {
+    width: 60%;
+}
+
+.main-title h1 {
+    font-size: 50px;
+    margin-top: 200px;
+    font-family: Metropolis;
+    letter-spacing: -2px;
+    line-height: 1.2;
+    color: #562156;
+}
+
+.skills {
+    font-size: 12px;
+    color: #999999;
+    font-family: Metropolis;
+    margin-bottom: 30px;
+}
+
+.button {
+    text-decoration: none;
+    font-family: Metropolis;
+    background: #562156;
+    padding: 10px 20px;
+    border: 1px solid #562156;
+    color: rgba(255, 255, 255, .8)
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social a {
+    margin-right: 15px;
+    color: #999999;
+}
+
+.main-img img {
+    width: 530px;
+    height: 100vh;
+}
