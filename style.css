@@ -17,13 +17,17 @@ body {
     width: 60%;
 }
 
+h1,
 .main-title h1 {
     font-size: 3.2em;
-    margin: 5em 0 0 2.15em;
     font-family: Metropolis;
     letter-spacing: -2px;
-    line-height: 1.1;
     color: #151515;
+}
+
+.main-title h1 {
+    margin: 5em 0 0 2.15em;
+    line-height: 1.1;
 }
 
 .skills {
@@ -37,12 +41,16 @@ body {
     text-decoration: none;
     font-size: 1em;
     font-family: Metropolis;
-    background: transparent;
+    background: #d3d3d3;
     padding: .8em 1.3em;
     border: 2px solid black;
     color: black;
     margin: 1.5em 0 0 7em;
     cursor: pointer;
+}
+
+.button i {
+    margin-left: 1em;
 }
 
 .social {
@@ -62,4 +70,31 @@ body {
 .main-img img {
     width: 100%;
     height: 100vh;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top {
+    padding: 2em;
+}
+
+.project-list {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-list div {
+    background: #d3d3d3;
+    width: 31.5%;
+    height: 180px;
+    margin-bottom: 1.5em;
+}
+
+.summary {
+    margin-top: 1em;
 }
