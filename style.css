@@ -3,8 +3,52 @@
     margin: 0;
 }
 
+header {
+  /* border-bottom: 1px solid rgba(0, 0, 0, .1); */
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-left: 50px;
+}
+
+.introduction {
+  margin: 150px 0 0 0;
+}
+
+.profiile {
+  background: #febd3b;
+  position: relative;
+  text-align: center;
+  height: 550px;
+  overflow: hidden;
+}
+
+.profiile img {
+  width: 60%;
+  height: auto;
+  position: relative;
+  top: 90px;
+}
+
+.clipped-title1 {
+  background: url('img/glitter.jpeg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.clipped-title1 h1 {
+  -webkit-transition: text-shadow 1s ease;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
 body {
-    background: #efefef;
+    background: #fff;
     font-weight: 400;
     font-family: 'Nunito', sans-serif;
 }
@@ -21,7 +65,7 @@ body {
 
 h1,
 .main-title h1 {
-    font-size: 3em;
+    font-size: 4.5em;
     font-family: 'Nunito', sans-serif;
     letter-spacing: -2px;
     font-weight: 800;

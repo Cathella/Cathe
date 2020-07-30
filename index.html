@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nakitto Catherine</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script
       src="https://kit.fontawesome.com/7290f27402.js"
@@ -13,16 +14,40 @@
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav class="container d-flex justify-content-between pt-3">
+          <a href="#">NC</a>
+          <ul class="d-flex justify-content-end">
+            <li><a href="#">My works</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
     </header>
-    <main>
-        <section class="intro">
-            <div class="main-title">
-                <h1>
+    <main class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="introduction pl-5">
+            <p>Nakitto Catherine</p>
+            <div class="clipped-title1">
+              <h1>Full Stack Developer</h1>
+            </div>
+            <p>With 4 years experience in applications development, UX/UI designing and transformation. I am fascinated with well-thought UI designs.</p>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="profiile">
+            <img src="img/pp.jpeg" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+        <!-- <section class="intro"> -->
+            <!-- <div class="main-title"> -->
+                <!-- <h1>
                     Hi, I am Nakitto Catherine - <span>Full-Stack Developer</span>
-                </h1>
-                <p class="summary">With 4 years experience in applications development, UX/UI designing and transformation. I am fascinated with well-thought UI designs</p>
-                <p class="skills">
+                </h1> -->
+                <!-- <p class="summary">With 4 years experience in applications development, UX/UI designing and transformation. I am fascinated with well-thought UI designs</p> -->
+                <!-- <p class="skills">
                     <a class="no-pad" href="#">HTML5</a>
                     <a href="#">CSS3</a>
                     <a href="#">JS</a>
@@ -31,23 +56,23 @@
                     <a href="#">React</a>
                     <a href="#">Redux</a>
                     <a class="no-border" href="#">Laravel</a>
-                </p>
-                <div>
+                </p> -->
+                <!-- <div>
                     <a href="portifolio.html">
                         <button class="button" >Go to Portifolio <i class="fas fa-long-arrow-alt-right"></i></button>
                     </a>
-                </div>
-                <div class="social">
+                </div> -->
+                <!-- <div class="social">
                     <a href="#"><i class="fab fa-github"></i></a>
                     <a href="#"><i class="fab fa-facebook-square"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="main-img">
+                </div> -->
+            <!-- </div> -->
+            <!-- <div class="main-img">
                 <img src="img/pp.jpeg" alt="" srcset="">
-            </div>
-        </section>
+            </div> -->
+        <!-- </section> -->
     </main>
     <footer>
 
