@@ -194,3 +194,7 @@ h3 a {
   width: 85%;
   margin: 0 auto;
 }
+
+.post .button {
+  right: 0;
+}
