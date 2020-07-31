@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nakitto Catherine</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script
       src="https://kit.fontawesome.com/7290f27402.js"
@@ -13,44 +15,223 @@
 </head>
 <body>
     <header>
-        <nav></nav>
+        <nav class="container d-flex justify-content-between pt-3">
+          <div class="logo">
+            <a href="#">NC</a>
+          </div>
+          <ul class="d-flex">
+            <li><a href="#">My works</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
     </header>
-    <main>
-        <section class="intro">
-            <div class="main-title">
-                <h1>
-                    Hi, I am Nakitto Catherine - <span>Full-Stack Developer</span>
-                </h1>
-                <p class="summary">With 4 years experience in applications development, UX/UI designing and transformation. I am fascinated with well-thought UI designs</p>
-                <p class="skills">
-                    <a class="no-pad" href="#">HTML5</a>
-                    <a href="#">CSS3</a>
-                    <a href="#">JS</a>
-                    <a href="#">Ruby</a>
-                    <a href="#">Ruby on Rails</a>
-                    <a href="#">React</a>
-                    <a href="#">Redux</a>
-                    <a class="no-border" href="#">Laravel</a>
-                </p>
-                <div>
-                    <a href="portifolio.html">
-                        <button class="button" >Go to Portifolio <i class="fas fa-long-arrow-alt-right"></i></button>
-                    </a>
-                </div>
-                <div class="social">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
+    <main class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="introduction pl-5">
+            <p class="name">Nakitto Catherine</p>
+            <div class="clipped-title1">
+              <h1>Full Stack Developer</h1>
             </div>
-            <div class="main-img">
-                <img src="img/pp.jpeg" alt="" srcset="">
-            </div>
-        </section>
-    </main>
-    <footer>
+            <p class="sum pt-3">Remote based applications developer who also loves UX/UI designing and transformation</p>
+          </div>
+        </div>
+        <div class="col-md-7" style="position: relative;">
+          <div class="profiile">
+            <img src="img/pp.jpeg" alt="" srcset="">
+          </div>
+          <div>
+              <a href="portifolio.html">
+                  <button class="button">About Myself<i class="fas fa-arrow-right"></i></button>
+              </a>
+          </div>
+        </div>
+      </div>
 
+      <div class="what-i-do">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header">
+              <div class="d-flex">
+                <div class="line"></div>
+                <p>What I do best</p>
+              </div>
+              <h1>Specialisation</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image-holder">
+              <img src="img/ror.jpg" alt="">
+            </div>
+            <h3><a href="#">Ruby on Rails</a></h3>
+          </div>
+          <div class="col-md-4">
+            <div class="image-holder">
+              <img src="img/react.jpg" alt="">
+            </div>
+            <h3><a href="#">ReactJS</a></h3>
+          </div>
+          <div class="col-md-4">
+            <div class="image-holder">
+              <img src="img/html.jpg" alt="">
+            </div>
+            <h3><a href="#">Html / CSS3</a></h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="what-i-do">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header">
+              <div class="d-flex">
+                <div class="line"></div>
+                <p>Projects I have worked on</p>
+              </div>
+              <h1>Works</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="project-image">
+              <img src="img/bot.png" alt="">
+            </div>
+            <h3><a href="https://github.com/Cathella/Build_a_Bot">Build a Telegram Bot</a></h3>
+            <p class="pb-5 sum">A Telegram bot that -- gives you a daily inspirational quote -- asks for your name and makes a joke about you.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="project-image">
+              <img src="img/Conference.png" alt="">
+            </div>
+            <h3><a href="https://github.com/Cathella/Html_Css_Capstone">Conference Page - Html Capstone</a></h3>
+            <p class="pb-5 sum">This project required that we convert a Behance design as specified into HTML and CSS using our custom content. I mainly used flexbox to create this project in its responsive nature.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="project-image">
+              <img src="img/capture.png" alt="">
+            </div>
+            <h3><a href="https://github.com/Cathella/tic_tac_toe">Tic-Tac-Toe</a></h3>
+            <p class="sum">Tictactoe is a classic old game for two players who take turns marking spaces in a 3X3 grid. The winner is the first player who succeeds in playing their symbol in a horizontal, vertical or diagonal row.</p>
+          </div>
+          <div class="col-md-6">
+            <div class="project-image">
+              <img src="img/social.png" alt="">
+            </div>
+            <h3><a href="https://github.com/Cathella/ror-social-scaffold">Stay In Touch</a></h3>
+            <p class="sum">This is a social media ruby on rails app with all the basic functionalities. It allows account creation and login. It allows a user to make posts and send requests to other users to become friends.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="what-i-do">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header">
+              <div class="d-flex">
+                <div class="line"></div>
+                <p>My shared blog articles</p>
+              </div>
+              <h1>My blog</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div style="position: relative;">
+              <div class="image-holder">
+                <img src="img/ror.jpg" alt="">
+              </div>
+              <div class="post">
+                  <a href="#">
+                      <button class="button">Read<i class="fas fa-arrow-right"></i></button>
+                  </a>
+              </div>
+            </div>
+            <h3><a href="#">Post One</a></h3>
+            <p class="sum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="col-md-4">
+            <div style="position: relative;">
+              <div class="image-holder">
+                <img src="img/ror.jpg" alt="">
+              </div>
+              <div class="post">
+                  <a href="#">
+                      <button class="button">Read<i class="fas fa-arrow-right"></i></button>
+                  </a>
+              </div>
+            </div>
+            <h3><a href="#">Post Two</a></h3>
+            <p class="sum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="col-md-4">
+            <div style="position: relative;">
+              <div class="image-holder">
+                <img src="img/ror.jpg" alt="">
+              </div>
+              <div class="post">
+                  <a href="#">
+                      <button class="button">Read<i class="fas fa-arrow-right"></i></button>
+                  </a>
+              </div>
+            </div>
+            <h3><a href="#">Post Three</a></h3>
+            <p class="sum">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center">
+            <h1>Let's Connect</h1>
+            <p>Got a project? Feel free to get in touch.</p>
+            <p class="email">ncathie214@gmail.com<i class="fas fa-external-link-alt"></i></p>
+          </div>
+          <div class="">
+            <form class="form connect" action="#" method="post">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" name="" value="" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" name="" value="" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="col-md-10">
+                  <textarea name="name" class="form-control" placeholder="Your Message"></textarea>
+                </div>
+                <div class="col-md-2">
+                  <button class="btn btn-success form-control" type="button" name="button">Send<br><i class="fas fa-arrow-right"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container d-flex align-items-center justify-content-between pt-5 mb-5">
+      <nav class="d-flex align-items-center">
+        <div class="logo">
+          <a href="#">NC</a>
+        </div>
+        <ul class="d-flex justify-content-end">
+          <li><a href="#">My works</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Media</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
     </footer>
     <!-- <script>alert('Please reach out!')</script> -->
 </body>
