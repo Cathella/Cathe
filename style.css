@@ -23,7 +23,6 @@ nav a {
 .logo {
   font-family: 'Pacifico', cursive;
   color: #2c2851;
-  background: #cf6fd8;
   background-image: linear-gradient(to bottom right, #cf6fd8 , #f7ac8b);
   border-radius: 50%;
   height: 50px;
@@ -82,7 +81,7 @@ nav a {
 }
 
 body {
-    background: #fff5f6;
+    background-image: linear-gradient(to bottom, #fff5f6 , #fbfbfb);
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -114,48 +113,24 @@ h1 {
     margin-left: 1em;
 }
 
-.social {
-    margin: 1.5em 0 0 7em;
+.section-header {
+  margin: 170px 0 80px 0;
+}
+
+.section-header h1 {
+  color: #2c2851;
+}
+
+.line {
+  border-top: 3px solid #2c2851;
+  width: 30px;
+  position: relative;
+  top: 10px;
+  margin-right: 20px;
 }
 
 .social a {
-    margin-right: 1em;
-    color: #999999;
-    font-size: 1em;
-}
-
-.main-img {
-    width: 40%;
-}
-
-.main-img img {
-    width: 100%;
-    height: 100vh;
-}
-
-.content {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.top {
-    padding: 2em;
-}
-
-.project-list {
-    margin-top: 2em;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.project-list div {
-    background: #d3d3d3;
-    width: 31.5%;
-    height: 180px;
-    margin-bottom: 1.5em;
-}
-
-.summary {
-    margin-top: 1em;
+  color: #2c2851;
+  margin-left: 1.2em;
+  font-size: 1.2em;
 }
