@@ -47,6 +47,8 @@ nav a {
 
 .sum {
   color: #797696;
+  font-size: 15px;
+  line-height: 1.9;
 }
 
 .profiile {
@@ -93,6 +95,7 @@ h1 {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
     color: #151515;
+    line-height: 0.9;
 }
 
 .button {
@@ -207,4 +210,8 @@ h3 a {
 
 .post .button {
   right: 0;
+}
+
+footer {
+  border-top: 1px solid rgba(0, 0, 0, .1);
 }
