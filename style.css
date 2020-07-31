@@ -5,6 +5,7 @@
 
 header {
   /* border-bottom: 1px solid rgba(0, 0, 0, .1); */
+  margin: 15px 0
 }
 
 nav ul {
@@ -15,16 +16,49 @@ nav li {
   margin-left: 50px;
 }
 
+nav a {
+  color: #2c2851;
+}
+
+.logo {
+  font-family: 'Pacifico', cursive;
+  color: #2c2851;
+  background: #cf6fd8;
+  background-image: linear-gradient(to bottom right, #cf6fd8 , #f7ac8b);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+
+.logo a {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
 .introduction {
   margin: 150px 0 0 0;
 }
 
+.name {
+  font-size: 1.7em;
+  font-family: 'Pacifico', cursive;
+}
+
+.sum {
+  color: #797696;
+}
+
 .profiile {
   background: #febd3b;
+  background: #ea9ea0;
   position: relative;
   text-align: center;
   height: 550px;
   overflow: hidden;
+  border-right: 13px solid transparent;
+  border-image: url(img/glitter.jpeg) 3% round;
 }
 
 .profiile img {
@@ -48,81 +82,32 @@ nav li {
 }
 
 body {
-    background: #fff;
+    background: #fff5f6;
     font-weight: 400;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #2c2851;
 }
 
-.intro {
-    display: flex;
-    height: 100vh;
-    background-color: transparent;
-}
-
-.main-title {
-    width: 60%;
-}
-
-h1,
-.main-title h1 {
+h1 {
     font-size: 4.5em;
-    font-family: 'Nunito', sans-serif;
-    letter-spacing: -2px;
-    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     color: #151515;
 }
 
-.main-title h1 {
-    margin: 5em 0 0 2.15em;
-    line-height: 1.1;
-}
-
-h1 span {
-    color: #febd3b;
-    text-shadow: 0px 1px rgba(0, 0, 0, .2);
-}
-
-.skills, .summary {
-    font-size: .8em;
-    margin: .5em 0 2em 8.8em;
-}
-
-.summary {
-    font-size: 1em;
-    margin: .5em 0 2em 6.6em;
-}
-
-.skills a {
-    text-decoration: none;
-    color: #999999;
-    border-right: 1px solid #999999;
-    padding: 0 .5em
-}
-
-.skills a.no-pad {
-    padding-left: 0;
-}
-
-.skills a.no-border {
-    border: none;
-}
-
-.skills a:hover {
-    text-decoration: underline;
-    color: #000000;
-}
-
 .button {
-    text-decoration: none;
-    font-size: 1em;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 800;
-    background: #ffd500;
-    padding: .8em 1.3em;
-    border: 1px solid black;
-    color: black;
-    margin: 1.5em 0 0 7em;
-    cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  background: #ffffff;
+  padding: 1.2em 2em;
+  border: none;
+  cursor: pointer;
 }
 
 .button i {
