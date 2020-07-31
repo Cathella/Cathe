@@ -170,6 +170,11 @@ h1 {
   font-size: .8em;
 }
 
+.project-image {
+  background: grey;
+  height: 350px;
+}
+
 .image-holder {
   background: grey;
   height: 250px;
