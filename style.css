@@ -155,12 +155,42 @@ h1 {
 
 .connect button {
   height: 100px;
-  background: #992876;
-  border: 1px solid #992876;
+  background: #62ba55;
+  border: none;
   text-transform: uppercase;
 }
 
 .email {
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #884bff;
+}
+
+.email i {
+  margin-left: 1em;
+  font-size: .8em;
+}
+
+.image-holder {
+  background: grey;
+  height: 250px;
+  overflow: hidden;
+}
+
+.image-holder img {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+    font-weight: 900;
+    margin-top: 1em;
+}
+
+h3 a {
+  color: #2c2851;
+}
+
+.what-i-do {
+  width: 85%;
+  margin: 0 auto;
 }
