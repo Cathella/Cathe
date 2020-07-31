@@ -134,3 +134,33 @@ h1 {
   margin-left: 1.2em;
   font-size: 1.2em;
 }
+
+.connect {
+  width: 70%;
+  margin: 0 auto 7em;
+}
+
+.connect input,
+.connect textarea {
+  margin: 1em 0 1.5em 0;
+  border: 1px solid rgba(0, 0, 0, .05);
+  height: 70px;
+  background: #fff;
+}
+
+.connect textarea {
+  margin: 0;
+  height: 100px;
+}
+
+.connect button {
+  height: 100px;
+  background: #992876;
+  border: 1px solid #992876;
+  text-transform: uppercase;
+}
+
+.email {
+  font-size: 1.5em;
+  color: #884bff;
+}
