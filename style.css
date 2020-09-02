@@ -4,7 +4,6 @@
 }
 
 header {
-  /* border-bottom: 1px solid rgba(0, 0, 0, .1); */
   margin: 15px 0
 }
 
@@ -47,7 +46,7 @@ nav a {
 
 .sum {
   color: #797696;
-  font-size: 15px;
+  font-size: 1em;
   line-height: 1.9;
 }
 
@@ -157,14 +156,15 @@ h1 {
 
 .connect button {
   height: 100px;
-  background: #62ba55;
+  background: #884bff;
   border: none;
   text-transform: uppercase;
 }
 
 .email {
-  font-size: 1.3em;
+  font-size: 1.7em;
   color: #884bff;
+  font-weight: bold;
 }
 
 .email i {
@@ -200,6 +200,11 @@ h3 {
 
 h3 a {
   color: #2c2851;
+}
+
+.project-link a {
+  color: #2c2851;
+  text-decoration: underline;
 }
 
 .what-i-do {
