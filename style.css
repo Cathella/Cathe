@@ -264,6 +264,10 @@ footer {
     width: 90%;
     margin: 0 auto 7em;
   }
+
+  #footer-links {
+    opacity: 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {
