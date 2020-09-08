@@ -51,33 +51,35 @@ nav a {
 }
 
 .profiile {
-  background: #febd3b;
-  background: #ea9ea0;
+  background: #884bff;
   position: relative;
   text-align: center;
-  height: 550px;
-  overflow: hidden;
-  border-right: 13px solid transparent;
-  border-image: url(img/glitter.jpeg) 3% round;
+  height: 270px;
+  margin: 4em 3em 0 3em;
+  /* overflow: hidden; */
+  /* border: 13px solid transparent; */
+  /* border-image: url(img/glitter.jpeg) 3% round; */
 }
 
 .profiile img {
-  width: 60%;
-  height: auto;
+  width: 310px;
+  height: 345px;
   position: relative;
   top: 90px;
+  border-radius: 50%;
+  border: 10px solid whitesmoke;
 }
 
 .clipped-title1 {
-  background: url('img/glitter.jpeg') no-repeat center center;
-  background-size: cover;
-  color: #fff;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  /* background: url('img/glitter.jpeg') no-repeat center center; */
+  /* background-size: cover; */
+  color: #2c2851;
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
 }
 
 .clipped-title1 h1 {
-  -webkit-transition: text-shadow 1s ease;
+  /* -webkit-transition: text-shadow 1s ease; */
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -97,14 +99,18 @@ h1 {
 }
 
 .button {
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   bottom: 0px;
-  right: 15px;
+  left: 0;
+  top: 1em;
+  /* right: 15px; */
   text-decoration: none;
   font-size: 1em;
   font-family: 'Nunito', sans-serif;
   font-weight: 500;
-  background: #ffffff;
+  background: #884bff;
+  color: white;
   padding: 1.2em 2em;
   border: none;
   cursor: pointer;
@@ -115,7 +121,7 @@ h1 {
 }
 
 .section-header {
-  margin: 170px 0 80px 0;
+  margin: 8em 0 4em 0;
 }
 
 .section-header h1 {
@@ -183,19 +189,24 @@ h1 {
 }
 
 .image-holder {
+  color: #884bff;
+}
+
+.image-holder-2 {
   background: grey;
   height: 250px;
   overflow: hidden;
 }
 
-.image-holder img {
+.image-holder-2 img {
   width: 100%;
   height: 100%;
 }
 
 h3 {
     font-weight: 900;
-    margin-top: 1em;
+    margin-top: .5em;
+    font-size: 1.3em;
 }
 
 h3 a {
