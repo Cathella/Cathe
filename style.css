@@ -56,9 +56,6 @@ nav a {
   text-align: center;
   height: 270px;
   margin: 4em 3em 0 3em;
-  /* overflow: hidden; */
-  /* border: 13px solid transparent; */
-  /* border-image: url(img/glitter.jpeg) 3% round; */
 }
 
 .profiile img {
@@ -71,15 +68,10 @@ nav a {
 }
 
 .clipped-title1 {
-  /* background: url('img/glitter.jpeg') no-repeat center center; */
-  /* background-size: cover; */
   color: #2c2851;
-  /* -webkit-text-fill-color: transparent; */
-  /* -webkit-background-clip: text; */
 }
 
 .clipped-title1 h1 {
-  /* -webkit-transition: text-shadow 1s ease; */
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -99,12 +91,10 @@ h1 {
 }
 
 .button {
-  /* position: absolute; */
   position: relative;
   bottom: 0px;
   left: 0;
   top: 1em;
-  /* right: 15px; */
   text-decoration: none;
   font-size: 1em;
   font-family: 'Nunito', sans-serif;
@@ -296,11 +286,6 @@ footer {
 
   .connect button {
     margin-top: 1.5em;
-  }
-
-  .social {
-    /* display: block;
-    width: 100% */
   }
 }
 
