@@ -51,35 +51,26 @@ nav a {
 }
 
 .profiile {
-  background: #884bff;
   position: relative;
   text-align: center;
   height: 270px;
   margin: 4em 3em 0 3em;
-  /* overflow: hidden; */
-  /* border: 13px solid transparent; */
-  /* border-image: url(img/glitter.jpeg) 3% round; */
 }
 
 .profiile img {
-  width: 310px;
-  height: 345px;
+  width: 350px;
+  height: 448px;
   position: relative;
-  top: 90px;
-  border-radius: 50%;
-  border: 10px solid whitesmoke;
+  top: 50px;
+  border-radius: 1%;
+  border: none;
 }
 
 .clipped-title1 {
-  /* background: url('img/glitter.jpeg') no-repeat center center; */
-  /* background-size: cover; */
   color: #2c2851;
-  /* -webkit-text-fill-color: transparent; */
-  /* -webkit-background-clip: text; */
 }
 
 .clipped-title1 h1 {
-  /* -webkit-transition: text-shadow 1s ease; */
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -99,12 +90,10 @@ h1 {
 }
 
 .button {
-  /* position: absolute; */
   position: relative;
   bottom: 0px;
   left: 0;
   top: 1em;
-  /* right: 15px; */
   text-decoration: none;
   font-size: 1em;
   font-family: 'Nunito', sans-serif;
@@ -193,8 +182,7 @@ h1 {
 }
 
 .image-holder-2 {
-  background: grey;
-  height: 250px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -251,8 +239,9 @@ footer {
   }
 
   .profiile img {
-    width: 75%;
-    top: 50px;
+    width: 100%;
+    top: 20px;
+    height: 379px;
   }
 
   .what-i-do {
@@ -298,9 +287,8 @@ footer {
     margin-top: 1.5em;
   }
 
-  .social {
-    /* display: block;
-    width: 100% */
+  #disapper {
+    opacity: 0;
   }
 }
 
