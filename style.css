@@ -239,8 +239,9 @@ footer {
   }
 
   .profiile img {
-    width: 75%;
-    top: 50px;
+    width: 100%;
+    top: 20px;
+    height: 379px;
   }
 
   .what-i-do {
@@ -284,6 +285,10 @@ footer {
 
   .connect button {
     margin-top: 1.5em;
+  }
+
+  #disapper {
+    opacity: 0;
   }
 }
 
