@@ -90,7 +90,7 @@ h1 {
 }
 
 h1 span {
-  color: #884bff;
+  /* color: #884bff; */
 }
 
 .button {
@@ -146,6 +146,10 @@ h1 span {
   border: 1px solid rgba(0, 0, 0, .05);
   height: 70px;
   background: #fff;
+}
+
+.text-purple {
+  color: #884bff;
 }
 
 .connect textarea {
