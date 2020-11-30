@@ -89,10 +89,6 @@ h1 {
     line-height: 0.9;
 }
 
-h1 span {
-  /* color: #884bff; */
-}
-
 .button {
   position: relative;
   bottom: 0px;
