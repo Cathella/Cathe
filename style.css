@@ -304,6 +304,14 @@ footer {
   #disapper {
     opacity: 0;
   }
+
+  #course-title {
+    font-size: 2.5em !important;
+  }
+
+  #padded {
+    padding-left: 1.5em;
+  }
 }
 
 @media only screen and (max-width: 500px) {
