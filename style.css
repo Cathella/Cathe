@@ -44,6 +44,11 @@ nav a {
   font-family: 'Pacifico', cursive;
 }
 
+.font-size-m {
+  font-size: 1.1em;
+  line-height: 2;
+}
+
 .sum {
   color: #797696;
   font-size: 1em;
@@ -146,6 +151,11 @@ h1 {
 
 .text-purple {
   color: #884bff;
+}
+
+.btn-purple {
+  color: white;
+  background: #884bff;
 }
 
 .connect textarea {
