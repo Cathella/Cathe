@@ -21,7 +21,6 @@ nav a {
 
 .logo {
   font-family: 'Pacifico', cursive;
-  color: #2c2851;
   background-image: linear-gradient(to bottom right, #cf6fd8 , #f7ac8b);
   border-radius: 50%;
   height: 50px;
@@ -33,6 +32,7 @@ nav a {
   position: absolute;
   right: 10px;
   top: 12px;
+  color: #fff;
 }
 
 .introduction {
@@ -92,6 +92,7 @@ h1 {
     font-family: 'Nunito', sans-serif;
     font-weight: 900;
     line-height: 0.9;
+    letter-spacing: -3px;
 }
 
 .button {
@@ -103,7 +104,7 @@ h1 {
   font-size: 1em;
   font-family: 'Nunito', sans-serif;
   font-weight: 500;
-  background: #884bff;
+  background: #cf6fd8;
   color: white;
   padding: 1.2em 2em;
   border: none;
@@ -150,12 +151,12 @@ h1 {
 }
 
 .text-purple {
-  color: #884bff;
+  color: #cf6fd8;
 }
 
 .btn-purple {
   color: white;
-  background: #884bff;
+  background: #cf6fd8;
 }
 
 .connect textarea {
