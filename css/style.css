@@ -154,7 +154,8 @@ h1 {
   color: #cf6fd8;
 }
 
-.btn-purple {
+.btn-purple,
+.bg-purple {
   color: white;
   background: #cf6fd8;
 }
