@@ -319,6 +319,10 @@ footer {
     display: none;
   }
 
+  .ml-5-remove {
+    margin-left: 0 !important;
+  }
+
   #remove-margin {
     margin-left: 0 !important;
   }
