@@ -81,7 +81,6 @@ nav a {
 
 body {
     background-image: linear-gradient(to bottom, #fff5f6 , #fbfbfb);
-    /* font-weight: 400; */
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
     color: #2c2851;
@@ -135,6 +134,10 @@ h1 {
   color: #2c2851;
   margin-left: 1.2em;
   font-size: 1.2em;
+}
+
+.link-color {
+  color: #2c2851;
 }
 
 .connect {
