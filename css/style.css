@@ -225,6 +225,20 @@ h3 a {
   text-decoration: underline;
 }
 
+.project-bg {
+  background: url("../img/pjt-homeschool.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.project2-bg {
+  background: url("../img/pjt-rentals.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position-y: center;
+}
+
 .what-i-do {
   width: 85%;
   margin: 0 auto;
