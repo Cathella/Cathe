@@ -36,7 +36,7 @@ nav a {
 }
 
 .introduction {
-  margin: 150px 0 0 70px;
+  margin-top: 150px;
 }
 
 .name {
@@ -92,6 +92,13 @@ h1 {
     font-weight: 900;
     line-height: 0.9;
     letter-spacing: -3px;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  letter-spacing: -2px;
 }
 
 .button {
@@ -225,9 +232,39 @@ h3 a {
   text-decoration: underline;
 }
 
-.what-i-do {
-  width: 85%;
-  margin: 0 auto;
+.project-bg {
+  background: url("../img/pjt-homeschool.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.project2-bg {
+  background: url("../img/pjt-rentals.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.project3-bg {
+  background: url("../img/pp-tuwaye.png");
+  height: 400px;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.project4-bg {
+  background: url("../img/pp-tidy.png");
+  height: 400px;
+  background-size: cover;
+  background-position-y: top;
+}
+
+.project5-bg {
+  background: url("../img/pp-alead.png");
+  height: 400px;
+  background-size: cover;
+  background-position-y: top;
 }
 
 .post .button {
