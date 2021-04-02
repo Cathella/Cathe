@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     targets: 'h1',
     translateX: [-100, 0],
     easing: 'easeOutExpo',
-    duration: 5000,
-    delay: 2000,
+    duration: 2000,
+    delay: 1500,
     opacity: [0, 1],
   });
 
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     targets: '.picture',
     translateX: [500, 0],
     easing: 'easeOutExpo',
-    duration: 5000,
+    duration: 3000,
     opacity: [0, 1],
   });
 })
