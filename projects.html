@@ -1,47 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Projects</title>
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<header>
-    <nav class="navbar navbar-expand-md navbar-light container">
-      <div class="logo">
-				<a href="index.html">NC</a>
-			</div>
-      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ml-auto">
-          <a href="index.html" class="nav-item nav-link mr-4">Home</a>
-					<a href="projects.html" class="nav-item nav-link mr-4">Projects</a>
-          <a href="https://shielded-peak-20682.herokuapp.com/" class="nav-item nav-link mr-4">Blog</a>
-					<a href="templates.html" class="nav-item nav-link mr-4">Templates</a>
-					<!-- <a href="courses.html" class="nav-item nav-link mr-4">Courses</a> -->
-					<!-- <a href="contact.html" class="nav-item nav-link">Contact Me</a> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light container">
+        <div class="logo">
+          <a href="index.html">NC</a>
+        </div>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ml-auto">
+            <a href="index.html" class="nav-item nav-link mr-4">Home</a>
+            <a href="projects.html" class="nav-item nav-link mr-4">Projects</a>
+            <a
+              href="https://shielded-peak-20682.herokuapp.com/"
+              class="nav-item nav-link mr-4"
+              >Blog</a
+            >
+            <a href="templates.html" class="nav-item nav-link mr-4"
+              >Templates</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container py-5">
+      <h2>I work on a lot of things</h2>
+      <p class="py-4 text-muted font-size-m">
+        And here are my favourites...<br />
+        Some are in progress and others are complete. I am very proud of them.
+        Feel free to leave me a message if you like them.
+      </p>
+
+      <div class="row">
+        <div class="col-md-8 col-lg-5 mr-auto">
+          <div class="project-image shadow mb-5" style="height: 450px">
+            <img src="img/hs.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <h3 class="mt-5">
+            Project:
+            <a href="https://github.com/Cathella/Home-School-v2">Homeschool</a>
+          </h3>
+          <div class="d-flex flex-wrap align-items-start mt-3 mb-3">
+            <p class="mr-3">Skills:</p>
+            <p>
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1">Ruby</a>
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1"
+                >Ruby on Rails</a
+              >
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1"
+                >Google Maps APIs</a
+              >
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1">Stimulus</a>
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1">Bootstrap</a>
+            </p>
+          </div>
+          <p class="text-muted font-size-m">
+            Homeschool matches teachers with students in a study-group in the
+            same location. It uses Google Maps API to obtain addresses of
+            teachers and students. Students that are near each other are grouped
+            in study-groups that are then matched with a teacher near them.
+          </p>
+          <p class="pb-5 mt-4">
+            <a class="text-purple" href="https://homeschool.ug"
+              >Live project link - homeschool.ug<i
+                class="fas fa-arrow-right ml-2"
+              ></i
+            ></a>
+          </p>
         </div>
       </div>
-    </nav>
-	</header>
-
-	<main class="container py-5">
-		<h2>I work on a lot of things</h2>
-		<p class="py-4 text-muted font-size-m">
-			Here are my favourites...<br> 
-			Some are in progress and others are complete. I am very proud of them. 
-			Feel free to leave me a message if you like them.
-		</p>
-		<div class="row">
+      <div class="row">
+        <div class="col-md-8 col-lg-5 mr-auto">
+          <div class="project-image shadow mb-5" style="height: 450px">
+            <img src="img/tw.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <h3 class="mt-5">
+            Project: <a href="https://github.com/Cathella/Emboozi">Tuwaaye</a>
+          </h3>
+          <div class="d-flex flex-wrap align-items-start mt-3 mb-3">
+            <p class="mr-3">Skills:</p>
+            <p>
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1">Ruby</a>
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1"
+                >Ruby on Rails</a
+              >
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1">Bootstrap</a>
+            </p>
+          </div>
+          <p class="text-muted font-size-m">
+            I enjoy reading stories and about people's life experiences. This
+            will be a platform where people are welcome to tell their stories to
+            the world. Tell how they built something or how they went through an
+            experience to inspire or even to support others as well as receiving
+            the audience they deserve.
+          </p>
+          <p class="pb-5 mt-4">
+            <a
+              class="text-purple"
+              href="https://intense-reaches-16629.herokuapp.com/"
+              >Live project link - Tuwaaye<i class="fas fa-arrow-right ml-2"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-lg-5 mr-auto">
+          <div class="project-image shadow mb-5" style="height: 450px">
+            <img src="img/pp-tidy.png" alt="" />
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <h3 class="mt-5">
+            Project:
+            <a href="https://github.com/Cathella/Record-Management-System"
+              >Tidy</a
+            >
+          </h3>
+          <div class="d-flex flex-wrap align-items-start mt-3 mb-3">
+            <p class="mr-3">Skills:</p>
+            <p>
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1">Ruby</a>
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1"
+                >Ruby on Rails</a
+              >
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1">Bootstrap</a>
+              <a href="#" class="btn btn-purple py-0 px-2 mb-1">Invoicing</a>
+            </p>
+          </div>
+          <p class="text-muted font-size-m">
+            This is a system that helps you manage your clients and project
+            records. It keeps them organised without a hustle. It also enables
+            you to create invoices for your clients easily.
+          </p>
+          <p class="pb-5 mt-4">
+            <a
+              class="text-purple"
+              href="https://github.com/Cathella/Record-Management-System"
+              >Github project link - Tidy<i class="fas fa-arrow-right ml-2"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <!-- <div class="row">
 			<div class="col-md-12 col-lg-6">
 				<div class="px-4 py-5 rounded-0 mt-4 project-bg">
 					<h2 class="font-weight-bold pb-1">
@@ -157,29 +290,34 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</main>
+		</div> -->
+    </main>
 
-	<footer class="container pt-5 mb-5">
-		<nav class="d-flex align-items-center justify-content-between flex-wrap">
-			<div class="logo">
-				<a href="index.html">NC</a>
-			</div>
-			<div class="d-flex">
-				<a class="mr-4" href="https://github.com/Cathella"><i class="fab fa-github fa-lg text-muted"></i></a>
-				<a class="mr-4" href="https://twitter.com/cathella9"><i class="fab fa-twitter fa-lg text-muted"></i></a>
-				<a href="https://www.linkedin.com/in/nakitto-catherine2020/"><i class="fab fa-linkedin-in fa-lg text-muted"></i></a>
-			</div>
-		</nav>
-	</footer>
+    <footer class="container pt-5 mb-5">
+      <nav class="d-flex align-items-center justify-content-between flex-wrap">
+        <div class="logo">
+          <a href="index.html">NC</a>
+        </div>
+        <div class="d-flex">
+          <a class="mr-4" href="https://github.com/Cathella"
+            ><i class="fab fa-github fa-lg text-muted"></i
+          ></a>
+          <a class="mr-4" href="https://twitter.com/cathella9"
+            ><i class="fab fa-twitter fa-lg text-muted"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/nakitto-catherine2020/"
+            ><i class="fab fa-linkedin-in fa-lg text-muted"></i
+          ></a>
+        </div>
+      </nav>
+    </footer>
 
-	<script
-		src="https://kit.fontawesome.com/7290f27402.js"
-		crossorigin="anonymous"
-  ></script>
-  
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/7290f27402.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
