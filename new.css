@@ -1,0 +1,8 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #212529 !important;
+  background-color: transparent !important;
+}
