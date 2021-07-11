@@ -17,13 +17,14 @@
     />
     <link rel="stylesheet" href="new.css" />
   </head>
+
   <body>
-    <div class="container py-5">
+    <div class="container py-5 mb-5">
       <div class="row">
         <div class="col-lg-9 mx-auto">
-          <div class="row">
-            <div class="col-md-9 col-lg-5 mx-auto">
-              <div class="bg-light py-5 px-4 text-center">
+          <div class="dark-theme-bg py-5 px-4 rounded">
+            <div class="row">
+              <div class="col-lg-4 text-center mx-auto">
                 <span class="d-block">
                   <img
                     src="img/pp.png"
@@ -32,53 +33,52 @@
                     class="rounded-circle"
                   />
                 </span>
-
-                <p class="fw-bold fs-5 text-dark text-uppercase mt-3">
+                <p class="fw-bold fs-5 text-uppercase mt-3">
                   Nakitto Catherine
                 </p>
-                <p class="mb-4 px-2">
-                  I’m a developer with a passion for intuitive design. I’m
-                  creative and view every new project as an opportunity to build
-                  something useful and elegant.<br /><br />
-                  I develop with HTML, CSS, JavaScript, ReactJS, Ruby and Ruby
-                  on Rails. When not coding, I am watching a movie, listening to
-                  to soul music or cooking.
-                </p>
-                <div class="border-top">
+                <div class="">
                   <a
                     href="https://cathella.github.io/img/nakitto_catherine_resume.pdf"
-                    class="btn btn-dark py-2 px-4 mt-4 rounded-pill"
+                    class="btn button-bg text-white py-2 px-4 my-4 rounded-pill"
                     >Resume <i class="fas ms-2 fa-arrow-right"></i
                   ></a>
                 </div>
               </div>
-            </div>
-            <div class="col-md-9 col-lg-6 mx-auto">
-              <div
-                class="d-flex justify-content-between align-items-center border-bottom pb-3 mt-5"
-              >
-                <a class="btn bg-light fw-bold border rounded-pill px-4 py-2"
-                  >My Projects</a
-                >
-                <span>
+              <div class="col-lg-6 mx-auto">
+                <p class="mb-4 px-2 off-white-color">
+                  Hi there, I’m a developer with a passion for intuitive design.
+                  I’m creative and view every new project as an opportunity to
+                  build something useful and elegant.<br /><br />
+                  I develop with HTML, CSS, JavaScript, ReactJS, Ruby and Ruby
+                  on Rails. When not coding, I am watching a movie, listening to
+                  soul music or cooking.
+                </p>
+                <span class="px-2">
                   <a href="https://github.com/Cathella"
-                    ><i class="fab fa-lg fa-github text-muted"></i
+                    ><i class="fab fa-lg fa-github"></i
                   ></a>
                   <a
                     class="ms-3"
                     href="https://www.linkedin.com/in/nakitto-catherine2020/"
-                    ><i class="fab fa-lg fa-linkedin-in text-muted"></i
+                    ><i class="fab fa-lg fa-linkedin-in"></i
                   ></a>
                   <a class="ms-3" href="https://twitter.com/cathella9"
-                    ><i class="fab fa-lg fa-twitter text-muted"></i
+                    ><i class="fab fa-lg fa-twitter"></i
                   ></a>
                   <a
                     class="ms-3"
                     href="https://www.youtube.com/channel/UCphB0qwb7_GVqKduQNasVZQ"
-                    ><i class="fab fa-lg fa-youtube text-muted"></i
+                    ><i class="fab fa-lg fa-youtube"></i
                   ></a>
                 </span>
               </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div class="pb-3 mt-5 fs-3 fw-bold">My Projects</div>
+
               <div
                 class="mt-4 accordion accordion-flush"
                 id="accordionFlushExample"
@@ -87,17 +87,17 @@
                   <h2
                     class="accordion-header"
                     id="flush-headingOne"
-                    style="background-color: transparent"
+                    style="background: transparent !important"
                   >
                     <button
-                      class="px-0 accordion-button collapsed fw-bold"
+                      class="accordion-button collapsed fw-bold fs-5"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseOne"
                       aria-expanded="false"
                       aria-controls="flush-collapseOne"
                     >
-                      Project: HomeSchool
+                      Homeschool
                     </button>
                   </h2>
                   <div
@@ -106,7 +106,7 @@
                     aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body px-0 text-muted">
+                    <div class="accordion-body off-white-color">
                       <p>
                         Homeschool matches teachers with students in a
                         study-group in the same location. It uses Google Maps
@@ -117,14 +117,26 @@
                       <span class="d-flex py-3">
                         <a
                           href="https://github.com/Cathella/Home-School-v2"
-                          class="me-3 btn btn-light text-muted border btn-sm"
-                          ><i class="fab fa-github"></i> Github link</a
+                          class="
+                            me-4
+                            btn
+                            border border-primary
+                            text-primary
+                            btn-sm
+                          "
+                          ><i class="fab me-2 fa-github"></i> Github link</a
                         >
                         <a
                           href="https://homeschool.ug/"
-                          class="border btn btn-light btn-sm text-muted"
+                          class="
+                            me-4
+                            btn
+                            border border-primary
+                            text-primary
+                            btn-sm
+                          "
                           >Live Project link
-                          <i class="fas fa-arrow-circle-right"></i
+                          <i class="fas ms-2 fa-arrow-circle-right"></i
                         ></a>
                       </span>
                     </div>
@@ -133,14 +145,14 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingTwo">
                     <button
-                      class="px-0 fw-bold accordion-button collapsed"
+                      class="fw-bold accordion-button collapsed fs-5"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseTwo"
                       aria-expanded="false"
                       aria-controls="flush-collapseTwo"
                     >
-                      Project: Tuwaaye
+                      Tuwaaye
                     </button>
                   </h2>
                   <div
@@ -149,7 +161,7 @@
                     aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body px-0 text-muted">
+                    <div class="accordion-body off-white-color">
                       <p>
                         I enjoy reading stories and about people's life
                         experiences. This will be a platform where people are
@@ -161,16 +173,27 @@
                       <span class="d-flex py-3">
                         <a
                           href="https://github.com/Cathella/Emboozi"
-                          class="me-3 btn btn-light text-muted border btn-sm"
-                          ><i class="fab fa-github"></i> Github link</a
+                          class="
+                            me-4
+                            btn
+                            border border-primary
+                            text-primary
+                            btn-sm
+                          "
+                          ><i class="fab me-2 fa-github"></i>Github link</a
                         >
-                        <small
-                          ><a
-                            href="https://intense-reaches-16629.herokuapp.com/"
-                            class="text-muted btn btn-light border btn-sm"
-                            >Live Project link
-                            <i class="fas fa-arrow-circle-right"></i></a
-                        ></small>
+                        <a
+                          href="https://intense-reaches-16629.herokuapp.com/"
+                          class="
+                            me-4
+                            btn
+                            border border-primary
+                            text-primary
+                            btn-sm
+                          "
+                          >Live Project link
+                          <i class="fas ms-2 fa-arrow-circle-right"></i
+                        ></a>
                       </span>
                     </div>
                   </div>
@@ -178,14 +201,14 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingThree">
                     <button
-                      class="px-0 fw-bold accordion-button collapsed"
+                      class="fw-bold accordion-button collapsed fs-5"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseThree"
                       aria-expanded="false"
                       aria-controls="flush-collapseThree"
                     >
-                      Project: Progress Reports App
+                      Progress Reports App
                     </button>
                   </h2>
                   <div
@@ -194,7 +217,7 @@
                     aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body px-0 text-muted">
+                    <div class="accordion-body off-white-color">
                       <p>
                         This project has features that allow a student to sign
                         in and create a project. A student can add progress
@@ -205,8 +228,14 @@
                       <span class="d-flex py-3">
                         <a
                           href="https://github.com/Cathella/project-progress-app"
-                          class="me-3 btn btn-light text-muted border btn-sm"
-                          ><i class="fab fa-github"></i> Github link</a
+                          class="
+                            me-4
+                            btn
+                            border border-primary
+                            text-primary
+                            btn-sm
+                          "
+                          ><i class="fab me-2 fa-github"></i> Github link</a
                         >
                       </span>
                     </div>
