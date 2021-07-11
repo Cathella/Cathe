@@ -2,7 +2,30 @@
   font-family: "Lato", sans-serif;
 }
 
+.accordion-button {
+  background: rgba(255, 255, 255, 0.09);
+  color: white;
+}
+
 .accordion-button:not(.collapsed) {
-  color: #212529 !important;
-  background-color: transparent !important;
+  color: white !important;
+  background: rgba(255, 255, 255, 0.09);
+}
+
+body,
+.accordion-item {
+  background: #0e141b;
+  color: white;
+}
+
+.dark-theme-bg {
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+.off-white-color {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.button-bg {
+  background-color: hsl(333deg, 100%, 52%);
 }
