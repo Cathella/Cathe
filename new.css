@@ -48,3 +48,12 @@ body,
 .pushable:active .front {
   transform: translateY(-2px);
 }
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: rgb(0, 190, 255);
+}
