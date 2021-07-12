@@ -26,6 +26,25 @@ body,
   color: rgba(255, 255, 255, 0.7);
 }
 
-.button-bg {
-  background-color: hsl(333deg, 100%, 52%);
+.pushable {
+  background: hsl(328deg, 100%, 34%);
+  border-radius: 8px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+
+.front {
+  display: block;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: hsl(333deg, 100%, 52%);
+  color: white;
+  transform: translateY(-6px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
 }
