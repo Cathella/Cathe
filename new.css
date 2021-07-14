@@ -58,3 +58,15 @@ a {
   color: rgb(0, 190, 255) !important;
   text-decoration: none;
 }
+
+.text-primary {
+  color: rgb(0, 190, 255) !important;
+}
+
+.border-primary {
+  border-color: rgb(0, 190, 255) !important;
+}
+
+.text-pink-color {
+  color: hsl(333deg, 100%, 52%);
+}
