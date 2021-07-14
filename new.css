@@ -70,3 +70,72 @@ a {
 .text-pink-color {
   color: hsl(333deg, 100%, 52%);
 }
+
+.star-section {
+  z-index: -999;
+  top: -40px;
+  width: 110px;
+  left: 30px;
+}
+
+.star {
+  width: 30px;
+}
+
+.star_one {
+  animation: blink 1s ease-in infinite;
+}
+
+.star_two {
+  animation: blink 2s ease-in infinite;
+  animation-delay: 0.5s;
+}
+
+.star_three {
+  animation: blink 3s ease-in infinite;
+  animation-delay: 1s;
+}
+
+.star_four {
+  animation: blink 2.6s ease-in infinite;
+  animation-delay: 0.8s;
+}
+
+#star_one {
+  animation: blink 2s ease-in infinite;
+}
+
+#star_two {
+  animation: blink 3s ease-in infinite;
+  animation-delay: 1s;
+}
+
+#star_three {
+  animation: blink 4s ease-in infinite;
+  animation-delay: 2s;
+}
+
+#top,
+#mid,
+#bottom {
+  /* width: 80%; */
+  /* margin: 0px auto 0 auto; */
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#mid,
+#bottom {
+  margin: 15px auto 0 auto;
+}
+
+@keyframes blink {
+  10% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+}
