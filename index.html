@@ -19,107 +19,101 @@
   </head>
 
   <body>
-    <div class="container py-5 mb-5">
-      <div class="row">
-        <div class="col-lg-9 mx-auto">
-          <nav class="d-flex justify-content-end align-items-center mb-5">
-            <span>
-              <a href="#about" class="me-5">About me</a>
-              <a href="#projects" class="me-5">Projects</a>
-              <!-- <a href="">Blog</a> -->
+    <nav class="navbar navbar-expand-lg navbar-light light-bg py-4">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Nakitto Catherine</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+            <li class="nav-item">
+              <a class="nav-link active px-4 fw-bold" aria-current="page" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 fw-bold" aria-current="page" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 fw-bold" aria-current="page" href="#">Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4 fw-bold" href="#">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="pt-5 mb-5 rounded light-bg position-relative" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mx-auto text-center position-relative">
+            <span class="d-block position-relative">
+              <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <defs>
+                  <clipPath id="shape">
+                    <path id="blob" d="M446,328.5Q437,407,358.5,415Q280,423,227.5,401.5Q175,380,124,347Q73,314,63.5,246.5Q54,179,111.5,144Q169,109,229,69Q289,29,343,77.5Q397,126,426,188Q455,250,446,328.5Z" fill="#d1d8e0"></path>
+                  </clipPath>
+                </defs>
+                <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" xlink:href="https://cathella.github.io/img/pp.png" preserveAspectRatio="none"></image>
+              </svg>
             </span>
-          </nav>
-
-          <header class="py-5 px-4 rounded" id="about">
-            <div class="row">
-              <div class="col-lg-4 text-center mx-auto position-relative">
-                <div class="position-absolute star-section">
-                  <section id="top">
-                    <span id="stars">
-                      <img src="img/star.svg" alt="" class="star star_one" />
-                    </span>
-                    <span id="stars">
-                      <img src="img/star.svg" alt="" class="star star_two" />
-                    </span>
-                    <span id="stars">
-                      <img src="img/star.svg" alt="" class="star star_three" />
-                    </span>
-                  </section>
-                  <section id="mid">
-                    <span id="stars">
-                      <img src="img/star.svg" alt="" class="star" />
-                    </span>
-                    <span id="stars">
-                      <img src="img/star.svg" alt="" class="star star_four" />
-                    </span>
-                    <span id="stars">
-                      <img src="img/star.svg" alt="" class="star star_one" />
-                    </span>
-                  </section>
-                </div>
-                <span class="d-block">
-                  <img
-                    src="img/pp.png"
-                    alt=""
-                    width="100"
-                    class="rounded-circle"
-                  />
-                </span>
-                <p class="fw-bold fs-5 text-uppercase mt-3">
-                  Nakitto Catherine
-                </p>
-                <div class="my-4 pt-3">
-                  <a
-                    href="https://cathella.github.io/img/nakitto_catherine_resume.pdf"
-                    target="_blank"
-                  >
-                    <button class="pushable">
-                      <span class="front"
-                        >Resume<i class="fas ms-3 fa-arrow-right"></i
-                      ></span>
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-6 mx-auto">
-                <p class="mb-4 px-2 off-white-color">
-                  Hi there, I’m a developer with a passion for intuitive design.
-                  I’m creative and view every new project as an opportunity to
-                  build something useful and elegant.<br /><br />
-                  I develop with HTML, CSS, JavaScript, ReactJS, Ruby and Ruby
-                  on Rails. When not coding, I am watching a movie, listening to
-                  soul music or cooking.
-                </p>
-                <span class="px-2">
-                  <a href="https://github.com/Cathella" target="_blank"
-                    ><i class="fab fa-github"></i
-                  ></a>
-                  <a
-                    class="ms-4"
-                    href="https://www.linkedin.com/in/nakitto-catherine2020/"
-                    target="_blank"
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                  <a
-                    class="ms-4"
-                    href="https://twitter.com/cathella9"
-                    target="_blank"
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a
-                    class="ms-4"
-                    href="https://www.youtube.com/channel/UCphB0qwb7_GVqKduQNasVZQ"
-                    target="_blank"
-                    ><i class="fab fa-youtube"></i
-                  ></a>
-                </span>
-              </div>
+          </div>
+          <div class="col-lg-5 me-auto">
+            <p class="my-4">
+              Hi there, I’m a developer with a passion for intuitive design.
+              I’m creative and view every new project as an opportunity to
+              build something useful and elegant.<br /><br />
+              I develop with HTML, CSS, JavaScript, ReactJS, Ruby and Ruby
+              on Rails. When not coding, I am watching a movie, listening to
+              soul music or cooking.
+            </p>
+            <div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
+              <a
+                href="https://cathella.github.io/img/nakitto_catherine_resume.pdf"
+                target="_blank"
+              >
+                <button class="pushable">
+                  <span class="front"
+                    >Resume<i class="fas ms-3 fa-arrow-right"></i
+                  ></span>
+                </button>
+              </a>
+              <span class="">
+                <a href="https://github.com/Cathella" class=" text-dark" target="_blank"
+                  ><i class="fab fa-lg fa-github"></i
+                ></a>
+                <a
+                  class="ms-4 text-dark"
+                  href="https://www.linkedin.com/in/nakitto-catherine2020/"
+                  target="_blank"
+                  ><i class="fab fa-lg fa-linkedin-in"></i
+                ></a>
+                <a
+                  class="ms-4  text-dark"
+                  href="https://twitter.com/cathella9"
+                  target="_blank"
+                  ><i class="fab fa-lg fa-twitter"></i
+                ></a>
+                <a
+                  class="ms-4  text-dark"
+                  href="https://www.youtube.com/channel/UCphB0qwb7_GVqKduQNasVZQ"
+                  target="_blank"
+                  ><i class="fab fa-lg fa-youtube"></i
+                ></a>
+              </span>
             </div>
-          </header>
+          </div>
+        </div>
+      </div>
+      <img src="img/wave.svg" alt="" srcset="" class="position-absolute img-fluid bg">
+    </header>
 
-          <div class="row" id="projects">
-            <div class="col-lg-12 mx-auto">
-              <div class="pb-3 mt-5 fs-3 fw-bold">My Projects</div>
+    <h1 class="pt-5 my-5 fw-bold text-center">Projects</h1>
+
+    <div class="container pb-5 mb-5">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
               <div
                 class="mt-4 accordion accordion-flush"
                 id="accordionFlushExample"
@@ -341,11 +335,15 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
+
+    <footer class="py-3 text-center">
+      <small>
+        Made with 💛 by Nakitto Catherine.
+      </small>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/7290f27402.js"

@@ -3,36 +3,24 @@
 }
 
 .accordion-button {
-  background: rgba(255, 255, 255, 0.09);
-  color: white;
+  background: #fbc7c3;
 }
 
 .accordion-button:not(.collapsed) {
-  color: white !important;
-  background: rgba(255, 255, 255, 0.09);
+  color: black !important;
+  background: #fff7ec;
 }
 
-body {
-  background: rgb(28, 39, 47);
-  background: linear-gradient(
-    180deg,
-    rgba(28, 39, 47, 1) 0%,
-    rgba(14, 20, 27, 1) 40%
-  );
-  color: white;
+.light-bg {
+  background: #fff7ec;
 }
 
-.accordion-item {
-  background: #0e141b;
-  color: white;
-}
-
-.off-white-color {
-  color: rgba(255, 255, 255, 0.5);
+header img.bg {
+  z-index: -1;
 }
 
 .pushable {
-  background: hsl(328deg, 100%, 34%);
+  background: #38b3d0;
   border-radius: 8px;
   border: none;
   padding: 0;
@@ -45,8 +33,7 @@ body {
   padding: 10px 25px;
   border-radius: 8px;
   font-size: 1rem;
-  background: hsl(333deg, 100%, 52%);
-  color: white;
+  background: #a9e2f5;
   transform: translateY(-6px);
 }
 
@@ -55,7 +42,6 @@ body {
 }
 
 a {
-  color: rgb(0, 190, 255) !important;
   text-decoration: none;
 }
 
@@ -71,71 +57,6 @@ a {
   color: hsl(333deg, 100%, 52%);
 }
 
-.star-section {
-  z-index: -999;
-  top: -40px;
-  width: 110px;
-  left: 30px;
-}
-
-.star {
-  width: 30px;
-}
-
-.star_one {
-  animation: blink 1s ease-in infinite;
-}
-
-.star_two {
-  animation: blink 2s ease-in infinite;
-  animation-delay: 0.5s;
-}
-
-.star_three {
-  animation: blink 3s ease-in infinite;
-  animation-delay: 1s;
-}
-
-.star_four {
-  animation: blink 2.6s ease-in infinite;
-  animation-delay: 0.8s;
-}
-
-#star_one {
-  animation: blink 2s ease-in infinite;
-}
-
-#star_two {
-  animation: blink 3s ease-in infinite;
-  animation-delay: 1s;
-}
-
-#star_three {
-  animation: blink 4s ease-in infinite;
-  animation-delay: 2s;
-}
-
-#top,
-#mid,
-#bottom {
-  /* width: 80%; */
-  /* margin: 0px auto 0 auto; */
-  /* background-color: black; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#mid,
-#bottom {
-  margin: 15px auto 0 auto;
-}
-
-@keyframes blink {
-  10% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 1;
-  }
+footer {
+  background: #fbc7c3;
 }
