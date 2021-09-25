@@ -3,13 +3,12 @@
 }
 
 .accordion-button {
-  background: rgba(255, 255, 255, 0.09);
-  color: white;
+  background: #fbc7c3;
 }
 
 .accordion-button:not(.collapsed) {
-  color: white !important;
-  background: rgba(255, 255, 255, 0.09);
+  color: black !important;
+  background: #fff7ec;
 }
 
 .light-bg {
@@ -18,15 +17,6 @@
 
 header img.bg {
   z-index: -1;
-}
-
-.accordion-item {
-  background: #0e141b;
-  color: white;
-}
-
-.off-white-color {
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .pushable {
@@ -52,7 +42,6 @@ header img.bg {
 }
 
 a {
-  /* color: rgb(0, 190, 255) !important; */
   text-decoration: none;
 }
 
@@ -66,4 +55,8 @@ a {
 
 .text-pink-color {
   color: hsl(333deg, 100%, 52%);
+}
+
+footer {
+  background: #fbc7c3;
 }
