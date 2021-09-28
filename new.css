@@ -3,7 +3,12 @@
 }
 
 .accordion-button {
-  background: #fbc7c3;
+  background: #38b3d0;
+  color: white;
+}
+
+body {
+  background: #fff7ec;
 }
 
 .accordion-button:not(.collapsed) {
@@ -12,7 +17,8 @@
 }
 
 .light-bg {
-  background: #fff7ec;
+  /* background: #fff7ec; */
+  background: #fbc7c3;
 }
 
 header img.bg {
@@ -20,7 +26,7 @@ header img.bg {
 }
 
 .pushable {
-  background: #38b3d0;
+  background: #277c8f;
   border-radius: 8px;
   border: none;
   padding: 0;
@@ -33,7 +39,8 @@ header img.bg {
   padding: 10px 25px;
   border-radius: 8px;
   font-size: 1rem;
-  background: #a9e2f5;
+  background: #38b3d0;
+  color: white;
   transform: translateY(-6px);
 }
 
@@ -46,11 +53,11 @@ a {
 }
 
 .text-primary {
-  color: rgb(0, 190, 255) !important;
+  color: #277c8f !important;
 }
 
 .border-primary {
-  border-color: rgb(0, 190, 255) !important;
+  border-color: #38b3d0 !important;
 }
 
 .text-pink-color {
@@ -59,4 +66,77 @@ a {
 
 footer {
   background: #fbc7c3;
+  /* top: 15em; */
+}
+
+.accordion-body {
+  background: #fff7ec;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+  position: relative;
+  /* width: 90vw; */
+  /* padding: 1rem; */
+
+  top: 6em;
+}
+
+.project-container .kard {
+  position: relative;
+  max-width: 18.75rem;
+  height: 15rem;
+  margin: 2rem 0.75rem;
+  padding: 1.25rem 1rem;
+  background: #fff;
+  background: #38b3d0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 300ms ease-in-out;
+}
+
+.projet-container .kard:hover {
+  height: 28rem;
+}
+
+.project-container .kard:hover .content {
+  margin-top: -3.125rem;
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 100ms;
+}
+
+.project-container .kard .imgBx {
+  position: relative;
+  top: -4rem;
+  z-index: 1;
+  width: 16.25rem;
+  height: 16.25rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-container .kard .imgBx img {
+  max-width: 100%;
+  border-radius: 0.25rem;
+}
+
+.project-container .kard .content {
+  position: relative;
+  /* margin-top: -8rem; */
+  /* padding: 0.75rem 1rem; */
+  margin: -8rem -1rem auto;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  background: #38b3d0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 300ms ease-in-out;
 }

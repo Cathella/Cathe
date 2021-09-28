@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light light-bg py-4">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
       <div class="container">
         <a class="navbar-brand fw-bold" href="#">Nakitto Catherine</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,16 +28,14 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
             <li class="nav-item">
-              <a class="nav-link active px-4 fw-bold" aria-current="page" href="#">About me</a>
+              <a class="nav-link active px-4 fw-bold" aria-current="page" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4 fw-bold" aria-current="page" href="#">Projects</a>
+              <a class="nav-link px-4 active fw-bold" aria-current="page" href="#">Posts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4 fw-bold" aria-current="page" href="#">Posts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-4 fw-bold" href="#">Resume</a>
+              <a class="nav-link px-4 active fw-bold" href="https://cathella.github.io/img/nakitto_catherine_resume.pdf"
+              target="_blank">Resume</a>
             </li>
           </ul>
         </div>
@@ -106,14 +104,70 @@
           </div>
         </div>
       </div>
-      <img src="img/wave.svg" alt="" srcset="" class="position-absolute img-fluid bg">
+      <img src="img/wave-bg.svg" alt="" srcset="" class="position-absolute img-fluid bg">
     </header>
 
-    <h1 class="pt-5 my-5 fw-bold text-center">Projects</h1>
+    <h1 class="pt-5 my-5 fw-bold text-center position-relative">Projects</h1>
 
-    <div class="container pb-5 mb-5">
+    <!-- <div class="project-container position-relative">
+      <div class="kard">
+        <div class="imgBx">
+          <img
+            src="img/hs.png"
+            alt="Homeschool Ug"
+          />
+        </div>
+        <div class="content">
+          <p class="text-start">
+            Homeschool matches teachers with students in a
+            study-group in the same location. It uses Google
+            Maps API to obtain their addresses. Students near
+            each other are grouped in study-groups that are then
+            matched with a teacher near them.
+          </p>
+        </div>
+      </div>
+      
+      <div class="kard">
+        <div class="imgBx">
+          <img
+            src="img/tw.png"
+            alt="Tuwaaye"
+          />
+        </div>
+        <div class="content">
+          <p class="text-start">
+            I enjoy reading stories and about people's life
+            experiences. This will be a platform where people
+            are welcome to tell their stories to the world. Tell
+            how they went through an experience to inspire or even 
+            to support others as well as receiving the audience they deserve.
+          </p>
+        </div>
+      </div>
+
+      <div class="kard">
+        <div class="imgBx">
+          <img
+            src="img/"
+            alt="Project progress reports"
+          />
+        </div>
+        <div class="content">
+          <p class="text-start">
+            This project has features that allow a student to sign
+            in and create a project. A student can add progress
+            reports to the projects. The progress reports can have
+            file attachments and will trigger email notifications to
+            the Instructor on creation.
+          </p>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container pb-5 mb-5" id="projects">
       <div class="row">
-        <div class="col-lg-10 mx-auto">
+        <div class="col-lg-9 mx-auto">
               <div
                 class="mt-4 accordion accordion-flush"
                 id="accordionFlushExample"
@@ -291,46 +345,58 @@
                     aria-labelledby="flush-headingThree"
                     data-bs-parent="#accordionFlushExample"
                   >
-                    <div class="accordion-body off-white-color">
-                      <p>
-                        This project has features that allow a student to sign
-                        in and create a project. A student can add progress
-                        reports to the projects. The progress reports can have
-                        file attachments and will trigger email notifications to
-                        the Instructor on creation.
-                      </p>
-                      <span class="d-block text-pink-color">
-                        <small class="me-1">Ruby on Rails,</small>
-                        <small class="me-1">ERB,</small>
-                        <small class="me-1">Bootstrap 5</small>
-                      </span>
-                      <span class="d-flex py-3">
-                        <a
-                          href="https://github.com/Cathella/project-progress-app"
-                          class="
-                            me-4
-                            btn
-                            border border-primary
-                            text-primary
-                            btn-sm
-                          "
-                          target="_blank"
-                          ><i class="fab me-2 fa-github"></i>Github</a
-                        >
-                        <a
-                          href="https://stark-spire-50811.herokuapp.com/"
-                          class="
-                            me-4
-                            btn
-                            border border-primary
-                            text-primary
-                            btn-sm
-                          "
-                          target="_blank"
-                          >Live Project
-                          <i class="fas ms-2 fa-arrow-circle-right"></i
-                        ></a>
-                      </span>
+                    <div class="accordion-body off-white-color py-4">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-5 col-lg-4 me-auto">
+                          <img
+                            src="img/pr.png"
+                            class="img-fluid rounded"
+                            alt=""
+                            srcset=""
+                          />
+                        </div>
+                        <div class="col-md-12 col-lg-7 mx-auto">
+                          <p class="mt-5">
+                            This project has features that allow a student to sign
+                            in and create a project. A student can add progress
+                            reports to the projects. The progress reports can have
+                            file attachments and will trigger email notifications to
+                            the Instructor on creation.
+                          </p>
+                          <span class="d-block text-pink-color">
+                            <small class="me-1">Ruby on Rails,</small>
+                            <small class="me-1">ERB,</small>
+                            <small class="me-1">Bootstrap 5</small>
+                          </span>
+                          <span class="d-flex py-3">
+                            <a
+                              href="https://github.com/Cathella/project-progress-app"
+                              class="
+                                me-4
+                                btn
+                                border border-primary
+                                text-primary
+                                btn-sm
+                              "
+                              target="_blank"
+                              ><i class="fab me-2 fa-github"></i>Github</a
+                            >
+                            <a
+                              href="https://stark-spire-50811.herokuapp.com/"
+                              class="
+                                me-4
+                                btn
+                                border border-primary
+                                text-primary
+                                btn-sm
+                              "
+                              target="_blank"
+                              >Live Project
+                              <i class="fas ms-2 fa-arrow-circle-right"></i
+                            ></a>
+                          </span>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -339,7 +405,7 @@
       </div>
     </div>
 
-    <footer class="py-3 text-center">
+    <footer class="py-3 text-center position-relative">
       <small>
         Made with 💛 by Nakitto Catherine.
       </small>
