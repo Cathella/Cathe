@@ -3,7 +3,12 @@
 }
 
 .accordion-button {
-  background: #fbc7c3;
+  background: #38b3d0;
+  color: white;
+}
+
+body {
+  background: #fff7ec;
 }
 
 .accordion-button:not(.collapsed) {
@@ -12,7 +17,8 @@
 }
 
 .light-bg {
-  background: #fff7ec;
+  /* background: #fff7ec; */
+  background: #fbc7c3;
 }
 
 header img.bg {
@@ -20,7 +26,7 @@ header img.bg {
 }
 
 .pushable {
-  background: #38b3d0;
+  background: #277c8f;
   border-radius: 8px;
   border: none;
   padding: 0;
@@ -33,7 +39,8 @@ header img.bg {
   padding: 10px 25px;
   border-radius: 8px;
   font-size: 1rem;
-  background: #a9e2f5;
+  background: #38b3d0;
+  color: white;
   transform: translateY(-6px);
 }
 
@@ -46,11 +53,11 @@ a {
 }
 
 .text-primary {
-  color: rgb(0, 190, 255) !important;
+  color: #277c8f !important;
 }
 
 .border-primary {
-  border-color: rgb(0, 190, 255) !important;
+  border-color: #38b3d0 !important;
 }
 
 .text-pink-color {
@@ -59,4 +66,8 @@ a {
 
 footer {
   background: #fbc7c3;
+}
+
+.accordion-body {
+  background: #fff7ec;
 }
