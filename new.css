@@ -161,6 +161,17 @@ main::before, main::after {
   pointer-events: none;
 }
 
+main::after {
+  width: 45vmin;
+  height: 45vmin;
+  left: auto;
+  right: 20vmin;
+  top: auto;
+  bottom: 0;
+  animation: morph 10s linear infinite alternate, spin 26s linear infinite;
+  transform-origin: 40% 40%;
+}
+
 #profile-pic {
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
 }
