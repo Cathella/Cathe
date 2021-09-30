@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light py-3">
+    <nav class="navbar navbar-expand-lg navbar-light light-bg py-3">
       <div class="container">
         <a class="navbar-brand fw-bold" href="#">Nakitto Catherine</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,21 +43,22 @@
     </nav>
 
     <header class="pt-5 mb-5 rounded light-bg position-relative" id="about">
-      <div class="container">
+      <div class="container position-relative">
         <div class="row">
-          <div class="col-lg-4 mx-auto text-center position-relative">
+          <div class="col-sm-7 col-md-6 col-lg-4 mx-auto text-center position-relative">
             <span class="d-block position-relative">
-              <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+              <!-- <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
                 <defs>
                   <clipPath id="shape">
                     <path id="blob" d="M446,328.5Q437,407,358.5,415Q280,423,227.5,401.5Q175,380,124,347Q73,314,63.5,246.5Q54,179,111.5,144Q169,109,229,69Q289,29,343,77.5Q397,126,426,188Q455,250,446,328.5Z" fill="#d1d8e0"></path>
                   </clipPath>
                 </defs>
                 <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" xlink:href="https://cathella.github.io/img/pp.png" preserveAspectRatio="none"></image>
-              </svg>
+              </svg> -->
+              <img src="img/profile.png" class="img-fluid shadow-lg" alt="" srcset="" id="profile-pic">
             </span>
           </div>
-          <div class="col-lg-5 me-auto">
+          <div class="col-md-6 col-lg-5 me-auto">
             <p class="my-4">
               Hi there, I’m a developer with a passion for intuitive design.
               I’m creative and view every new project as an opportunity to
@@ -66,8 +67,8 @@
               on Rails. When not coding, I am watching a movie, listening to
               soul music or cooking.
             </p>
-            <div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
-              <a
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+              <a class="mt-5"
                 href="https://cathella.github.io/img/nakitto_catherine_resume.pdf"
                 target="_blank"
               >
@@ -77,7 +78,7 @@
                   ></span>
                 </button>
               </a>
-              <span class="">
+              <span class="mt-5">
                 <a href="https://github.com/Cathella" class=" text-dark" target="_blank"
                   ><i class="fab fa-lg fa-github"></i
                 ></a>
@@ -165,245 +166,247 @@
       </div>
     </div> -->
 
-    <div class="container pb-5 mb-5" id="projects">
-      <div class="row">
-        <div class="col-lg-9 mx-auto">
-              <div
-                class="mt-4 accordion accordion-flush"
-                id="accordionFlushExample"
-              >
-                <div class="accordion-item">
-                  <h2
-                    class="accordion-header"
-                    id="flush-headingOne"
-                    style="background: transparent !important"
-                  >
-                    <button
-                      class="accordion-button collapsed fw-bold fs-5"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseOne"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseOne"
+    <main>
+      <div class="container pb-5 mb-5" id="projects">
+        <div class="row">
+          <div class="col-lg-9 mx-auto">
+                <div
+                  class="mt-4 accordion accordion-flush"
+                  id="accordionFlushExample"
+                >
+                  <div class="accordion-item">
+                    <h2
+                      class="accordion-header"
+                      id="flush-headingOne"
+                      style="background: transparent !important"
                     >
-                      Homeschool
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseOne"
-                    class="accordion-collapse collapse show"
-                    aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div class="accordion-body off-white-color py-4">
-                      <div class="row">
-                        <div class="col-sm-6 col-md-5 col-lg-4 me-auto">
-                          <img
-                            src="img/hs.png"
-                            class="img-fluid rounded"
-                            alt=""
-                            srcset=""
-                          />
+                      <button
+                        class="accordion-button collapsed fw-bold fs-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                      >
+                        Homeschool
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="flush-headingOne"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body off-white-color py-4">
+                        <div class="row">
+                          <div class="col-sm-6 col-md-5 col-lg-4 me-auto">
+                            <img
+                              src="img/hs.png"
+                              class="img-fluid rounded"
+                              alt=""
+                              srcset=""
+                            />
+                          </div>
+                          <div class="col-md-12 col-lg-7 mx-auto">
+                            <p class="mt-5">
+                              Homeschool matches teachers with students in a
+                              study-group in the same location. It uses Google
+                              Maps API to obtain their addresses. Students near
+                              each other are grouped in study-groups that are then
+                              matched with a teacher near them.
+                            </p>
+                            <span class="d-block text-pink-color">
+                              <small class="me-1">Ruby on Rails,</small>
+                              <small class="me-1">ERB,</small>
+                              <small class="me-1">CSS3,</small>
+                              <small>Google Maps APIs</small>
+                            </span>
+                            <span class="d-flex py-3">
+                              <a
+                                href="https://github.com/Cathella/Home-School-v2"
+                                class="
+                                  me-4
+                                  btn
+                                  border border-primary
+                                  text-primary
+                                  btn-sm
+                                "
+                                target="_blank"
+                                ><i class="fab me-2 fa-github"></i>Github</a
+                              >
+                              <a
+                                href="https://homeschool.ug/"
+                                class="
+                                  me-4
+                                  btn
+                                  border border-primary
+                                  text-primary
+                                  btn-sm
+                                "
+                                target="_blank"
+                                >Live Project
+                                <i class="fas ms-2 fa-arrow-circle-right"></i
+                              ></a>
+                            </span>
+                          </div>
                         </div>
-                        <div class="col-md-12 col-lg-7 mx-auto">
-                          <p class="mt-5">
-                            Homeschool matches teachers with students in a
-                            study-group in the same location. It uses Google
-                            Maps API to obtain their addresses. Students near
-                            each other are grouped in study-groups that are then
-                            matched with a teacher near them.
-                          </p>
-                          <span class="d-block text-pink-color">
-                            <small class="me-1">Ruby on Rails,</small>
-                            <small class="me-1">ERB,</small>
-                            <small class="me-1">CSS3,</small>
-                            <small>Google Maps APIs</small>
-                          </span>
-                          <span class="d-flex py-3">
-                            <a
-                              href="https://github.com/Cathella/Home-School-v2"
-                              class="
-                                me-4
-                                btn
-                                border border-primary
-                                text-primary
-                                btn-sm
-                              "
-                              target="_blank"
-                              ><i class="fab me-2 fa-github"></i>Github</a
-                            >
-                            <a
-                              href="https://homeschool.ug/"
-                              class="
-                                me-4
-                                btn
-                                border border-primary
-                                text-primary
-                                btn-sm
-                              "
-                              target="_blank"
-                              >Live Project
-                              <i class="fas ms-2 fa-arrow-circle-right"></i
-                            ></a>
-                          </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button
+                        class="fw-bold accordion-button collapsed fs-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                      >
+                        Tuwaaye
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseTwo"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingTwo"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body off-white-color py-4">
+                        <div class="row">
+                          <div class="col-sm-6 col-md-5 col-lg-4 me-auto">
+                            <img
+                              src="img/tw.png"
+                              class="img-fluid rounded"
+                              alt=""
+                              srcset=""
+                            />
+                          </div>
+                          <div class="col-md-12 col-lg-7 mx-auto">
+                            <p class="mt-5">
+                              I enjoy reading stories and about people's life
+                              experiences. This will be a platform where people
+                              are welcome to tell their stories to the world. Tell
+                              how they built something or how they went through an
+                              experience to inspire or even to support others as
+                              well as receiving the audience they deserve.
+                            </p>
+                            <span class="d-block text-pink-color">
+                              <small class="me-1">Ruby on Rails,</small>
+                              <small class="me-1">ERB,</small>
+                              <small class="me-1">CSS3</small>
+                            </span>
+                            <span class="d-flex py-3">
+                              <a
+                                href="https://github.com/Cathella/Emboozi"
+                                class="
+                                  me-4
+                                  btn
+                                  border border-primary
+                                  text-primary
+                                  btn-sm
+                                "
+                                target="_blank"
+                                ><i class="fab me-2 fa-github"></i>Github</a
+                              >
+                              <a
+                                href="https://intense-reaches-16629.herokuapp.com/"
+                                class="
+                                  me-4
+                                  btn
+                                  border border-primary
+                                  text-primary
+                                  btn-sm
+                                "
+                                target="_blank"
+                                >Live Project
+                                <i class="fas ms-2 fa-arrow-circle-right"></i
+                              ></a>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button
+                        class="fw-bold accordion-button collapsed fs-5"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                      >
+                        Progress Reports App
+                      </button>
+                    </h2>
+                    <div
+                      id="flush-collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="flush-headingThree"
+                      data-bs-parent="#accordionFlushExample"
+                    >
+                      <div class="accordion-body off-white-color py-4">
+                        <div class="row">
+                          <div class="col-sm-6 col-md-5 col-lg-4 me-auto">
+                            <img
+                              src="img/pr.png"
+                              class="img-fluid rounded"
+                              alt=""
+                              srcset=""
+                            />
+                          </div>
+                          <div class="col-md-12 col-lg-7 mx-auto">
+                            <p class="mt-5">
+                              This project has features that allow a student to sign
+                              in and create a project. A student can add progress
+                              reports to the projects. The progress reports can have
+                              file attachments and will trigger email notifications to
+                              the Instructor on creation.
+                            </p>
+                            <span class="d-block text-pink-color">
+                              <small class="me-1">Ruby on Rails,</small>
+                              <small class="me-1">ERB,</small>
+                              <small class="me-1">Bootstrap 5</small>
+                            </span>
+                            <span class="d-flex py-3">
+                              <a
+                                href="https://github.com/Cathella/project-progress-app"
+                                class="
+                                  me-4
+                                  btn
+                                  border border-primary
+                                  text-primary
+                                  btn-sm
+                                "
+                                target="_blank"
+                                ><i class="fab me-2 fa-github"></i>Github</a
+                              >
+                              <a
+                                href="https://stark-spire-50811.herokuapp.com/"
+                                class="
+                                  me-4
+                                  btn
+                                  border border-primary
+                                  text-primary
+                                  btn-sm
+                                "
+                                target="_blank"
+                                >Live Project
+                                <i class="fas ms-2 fa-arrow-circle-right"></i
+                              ></a>
+                            </span>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button
-                      class="fw-bold accordion-button collapsed fs-5"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseTwo"
-                    >
-                      Tuwaaye
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseTwo"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div class="accordion-body off-white-color py-4">
-                      <div class="row">
-                        <div class="col-sm-6 col-md-5 col-lg-4 me-auto">
-                          <img
-                            src="img/tw.png"
-                            class="img-fluid rounded"
-                            alt=""
-                            srcset=""
-                          />
-                        </div>
-                        <div class="col-md-12 col-lg-7 mx-auto">
-                          <p class="mt-5">
-                            I enjoy reading stories and about people's life
-                            experiences. This will be a platform where people
-                            are welcome to tell their stories to the world. Tell
-                            how they built something or how they went through an
-                            experience to inspire or even to support others as
-                            well as receiving the audience they deserve.
-                          </p>
-                          <span class="d-block text-pink-color">
-                            <small class="me-1">Ruby on Rails,</small>
-                            <small class="me-1">ERB,</small>
-                            <small class="me-1">CSS3</small>
-                          </span>
-                          <span class="d-flex py-3">
-                            <a
-                              href="https://github.com/Cathella/Emboozi"
-                              class="
-                                me-4
-                                btn
-                                border border-primary
-                                text-primary
-                                btn-sm
-                              "
-                              target="_blank"
-                              ><i class="fab me-2 fa-github"></i>Github</a
-                            >
-                            <a
-                              href="https://intense-reaches-16629.herokuapp.com/"
-                              class="
-                                me-4
-                                btn
-                                border border-primary
-                                text-primary
-                                btn-sm
-                              "
-                              target="_blank"
-                              >Live Project
-                              <i class="fas ms-2 fa-arrow-circle-right"></i
-                            ></a>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button
-                      class="fw-bold accordion-button collapsed fs-5"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#flush-collapseThree"
-                      aria-expanded="false"
-                      aria-controls="flush-collapseThree"
-                    >
-                      Progress Reports App
-                    </button>
-                  </h2>
-                  <div
-                    id="flush-collapseThree"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample"
-                  >
-                    <div class="accordion-body off-white-color py-4">
-                      <div class="row">
-                        <div class="col-sm-6 col-md-5 col-lg-4 me-auto">
-                          <img
-                            src="img/pr.png"
-                            class="img-fluid rounded"
-                            alt=""
-                            srcset=""
-                          />
-                        </div>
-                        <div class="col-md-12 col-lg-7 mx-auto">
-                          <p class="mt-5">
-                            This project has features that allow a student to sign
-                            in and create a project. A student can add progress
-                            reports to the projects. The progress reports can have
-                            file attachments and will trigger email notifications to
-                            the Instructor on creation.
-                          </p>
-                          <span class="d-block text-pink-color">
-                            <small class="me-1">Ruby on Rails,</small>
-                            <small class="me-1">ERB,</small>
-                            <small class="me-1">Bootstrap 5</small>
-                          </span>
-                          <span class="d-flex py-3">
-                            <a
-                              href="https://github.com/Cathella/project-progress-app"
-                              class="
-                                me-4
-                                btn
-                                border border-primary
-                                text-primary
-                                btn-sm
-                              "
-                              target="_blank"
-                              ><i class="fab me-2 fa-github"></i>Github</a
-                            >
-                            <a
-                              href="https://stark-spire-50811.herokuapp.com/"
-                              class="
-                                me-4
-                                btn
-                                border border-primary
-                                text-primary
-                                btn-sm
-                              "
-                              target="_blank"
-                              >Live Project
-                              <i class="fas ms-2 fa-arrow-circle-right"></i
-                            ></a>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          </div>
         </div>
       </div>
-    </div>
+    </main>
 
     <footer class="py-3 text-center position-relative">
       <small>

@@ -7,6 +7,10 @@
   color: white;
 }
 
+h1, .container, #projects {
+  z-index: 2;
+}
+
 body {
   background: #fff7ec;
 }
@@ -139,4 +143,39 @@ footer {
   visibility: hidden;
   opacity: 0;
   transition: 300ms ease-in-out;
+}
+
+main::before, main::after {
+  box-sizing: border-box;
+  content: "";
+  width: 50vmax;
+  height: 50vmax;
+  position: absolute;
+  background: rgba(255,255,255,0.3);
+  left: -20vmin;
+  top: -20vmin;
+  animation: morph 15s linear infinite alternate, spin 20s linear infinite;
+  z-index: 1;
+  will-change: border-radius, transform;
+  transform-origin: 55% 55%;
+  pointer-events: none;
+}
+
+#profile-pic {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+  }
+  100% {
+    border-radius: 40% 60%;
+  }
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(1turn);
+  }
 }
